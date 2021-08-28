@@ -77,7 +77,7 @@
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"popupTCMZone"
+                 "value":"popupTutorialZone"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -153,7 +153,7 @@
                 {
                  "height":132,
                  "id":9,
-                 "name":"popUpTCM",
+                 "name":"popUpTutorialRect",
                  "rotation":0,
                  "type":"",
                  "visible":true,
