@@ -1,2 +1,2 @@
-(()=>{"use strict";var o="popupTCMZone",e=void 0;WA.onEnterZone(o,(()=>{e=WA.openPopup("popUpTCM","Hold SHIFT to run !  Up to 4 people at a time can join proximity chat - otherwise for bigger groups join a jitsi call by hanging around the tables.",[])})),WA.onLeaveZone(o,(function(){void 0!==e&&(e.close(),e=void 0)}))})();
+(()=>{"use strict";var o="popupTutorialZone",e=void 0;WA.onEnterZone(o,(()=>{e=WA.openPopup("popUpTutorialRect","Hold SHIFT to run !  Up to 4 people at a time can join proximity chat - otherwise for bigger groups join a jitsi call by hanging around the tables.",[])})),WA.onLeaveZone(o,(function(){void 0!==e&&(e.close(),e=void 0)}))})();
 //# sourceMappingURL=script.js.map
