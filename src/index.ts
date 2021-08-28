@@ -1,14 +1,15 @@
 /// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
 
-let currentPopup: any = undefined;
-const today = new Date();
-const time = today.getHours() + ":" + today.getMinutes();
+var zoneTCMName = "popupTCMZone";
 
-WA.room.onEnterZone('clock', () => {
-    currentPopup =  WA.ui.openPopup("clockPopup","It's " + time,[]);
+var currentPopup : any = undefined;
+
+WA.onEnterZone(zoneTCMName, () => {
+    currentPopup =  WA.openPopup("popUpTCM","Hold SHIFT to run ! " +
+        " Up to 4 people at a time can join proximity chat - otherwise for bigger groups join a jitsi call by hanging around the tables.",[]);
 })
 
-WA.room.onLeaveZone('clock', closePopUp)
+WA.onLeaveZone(zoneTCMName, closePopUp)
 
 function closePopUp(){
     if (currentPopup !== undefined) {
