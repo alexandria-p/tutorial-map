@@ -1,0 +1,15 @@
+{ "columns":7,
+ "image":"..\/..\/..\/..\/..\/Desktop\/Resume '21\/download.png",
+ "imageheight":225,
+ "imagewidth":225,
+ "margin":0,
+ "name":"vending",
+ "spacing":0,
+ "tilecount":49,
+ "tiledversion":"1.7.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "transparentcolor":"#ffffff",
+ "type":"tileset",
+ "version":"1.6"
+}

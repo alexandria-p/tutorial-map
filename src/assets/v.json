@@ -1,0 +1,14 @@
+{ "columns":3,
+ "image":"..\/..\/..\/..\/..\/Downloads\/images (1).png",
+ "imageheight":128,
+ "imagewidth":96,
+ "margin":0,
+ "name":"v",
+ "spacing":0,
+ "tilecount":12,
+ "tiledversion":"1.7.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.6"
+}
